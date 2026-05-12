@@ -10,8 +10,8 @@ profile:
   image_circular: false
   more_info: >
     <p>McKelvey Hall 2040</p>
-    <p>1 Brookings Drive</p>
-    <p>Saint Louis, MO 63130-4899</p>
+    <p>1 Brookings Drive, St. Louis</p>
+    <p>Missouri, United States</p>
     <p><a href="mailto:saurav.ghosh@wustl.edu">saurav.ghosh@wustl.edu</a></p>
     <p style="line-height: 1.7; margin-top: 0.6rem;">
       <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a> ·
