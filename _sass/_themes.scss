@@ -209,20 +209,20 @@ html[data-theme-setting="light"] {
 /* Custom link and emphasis styling for Saurav Ghosh site */
 
 a {
-  color: #0057b8;
-  text-decoration-line: underline;
-  text-decoration-style: dashed;
-  text-decoration-color: #0057b8;
-  text-underline-offset: 3px;
+  color: #0645ad;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 a:hover {
-  color: #003f88;
-  text-decoration-style: solid;
+  color: #0b0080;
+  text-decoration: underline;
 }
 
 strong,
 b {
-  color: #0057b8;
+  color: #0645ad;
   font-weight: 600;
 }
