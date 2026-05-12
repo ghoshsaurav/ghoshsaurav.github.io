@@ -16,15 +16,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-research-works",
-          title: "Research Works",
+        },{id: "nav-publications",
+          title: "publications",
           description: "Refereed, non-refereed publications, in-preparation work, and highlight videos in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
+        },{id: "nav-selected-projects",
+          title: "Selected Projects",
           description: "academic, research, and software works.",
           section: "Navigation",
           handler: () => {
