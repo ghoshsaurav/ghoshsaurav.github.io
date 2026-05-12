@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/
-title: Research Works
+permalink: /research/
+title: Research
 description: Refereed, non-refereed publications, in-preparation work, and highlight videos in reverse chronological order.
 nav: true
 nav_order: 2
