@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Selected academic, research, and software projects by Saurav Ghosh.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
