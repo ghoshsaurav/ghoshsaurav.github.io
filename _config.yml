@@ -6,23 +6,28 @@ title: Saurav Ghosh
 first_name: Saurav
 middle_name:
 last_name: Ghosh
+
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Email is the best way to reach me.
+
+description: >
+  Saurav Ghosh is a PhD student in Computer Science at Washington University in St. Louis. His research interests include Human-Centered AI, Scientific Visualization, Uncertainty Quantification, Signal Analysis, Quantum Computing, and Decentralized Systems.
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+keywords: Saurav Ghosh, Saurav Ghosh WashU, Saurav Ghosh Washington University in St. Louis, Computer Science PhD, Human-Centered AI, Scientific Visualization, Uncertainty Quantification, Signal Analysis, Quantum Computing, Decentralized Systems
+
+lang: en
+icon: ⚛️
 
 url: https://ghoshsaurav.github.io
 baseurl: ""
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+
+last_updated: false
+impressum_path:
+back_to_top: true
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -91,8 +96,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Notes
+blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -279,8 +284,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ghosh]
+  first_name: [Saurav, S.]
 
   style: apa
   locale: en
