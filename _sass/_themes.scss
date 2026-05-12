@@ -206,3 +206,23 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+/* Custom link and emphasis styling for Saurav Ghosh site */
+
+a {
+  color: #0057b8;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #0057b8;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #003f88;
+  text-decoration-style: solid;
+}
+
+strong,
+b {
+  color: #0057b8;
+  font-weight: 600;
+}
