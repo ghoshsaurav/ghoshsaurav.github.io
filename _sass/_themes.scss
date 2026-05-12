@@ -208,16 +208,18 @@ html[data-theme-setting="light"] {
 }
 /* Custom link and emphasis styling for Saurav Ghosh site */
 
+/* Links: blue with normal underline */
 body a,
 .post a,
 .profile a,
 .more-info a,
 footer a {
-  color: var(--global-theme-color) !important;
+  color: #0645ad !important;
   text-decoration-line: underline !important;
   text-decoration-style: solid !important;
   text-decoration-thickness: 1px !important;
   text-underline-offset: 2px !important;
+  text-decoration-color: #0645ad !important;
 }
 
 body a:hover,
@@ -225,17 +227,13 @@ body a:hover,
 .profile a:hover,
 .more-info a:hover,
 footer a:hover {
-  color: var(--global-hover-color) !important;
-  text-decoration-line: underline !important;
+  color: #0b0080 !important;
+  text-decoration-color: #0b0080 !important;
 }
 
+/* Bold text: black, not blue */
 strong,
 b {
-  color: #0645ad !important;
-  font-weight: 600;
-}
-
-html[data-theme="dark"] strong,
-html[data-theme="dark"] b {
-  color: #4da3ff !important;
+  color: var(--global-text-color) !important;
+  font-weight: 700;
 }
