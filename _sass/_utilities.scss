@@ -606,53 +606,67 @@ mjx-container[jax="CHTML"][display="true"] {
 
 /* Final custom overrides for Saurav Ghosh site */
 
-/* Body/profile/footer links: pure blue, bold, no underline */
+/* All normal page links: pure blue, normal weight, no underline */
 body a,
+body a:visited,
 .post a,
+.post a:visited,
 .post .desc a,
 .profile .more-info a,
 footer a {
   color: #0000ee !important;
   font-weight: 400 !important;
+
   text-decoration: none !important;
-  border-bottom: none !important;
+  text-decoration-line: none !important;
+  text-decoration-color: transparent !important;
+
+  border-bottom: 0 !important;
   box-shadow: none !important;
+  background-image: none !important;
 }
 
+/* Hover/focus links: same blue, still no underline */
 body a:hover,
+body a:focus,
 .post a:hover,
+.post a:focus,
 .post .desc a:hover,
 .profile .more-info a:hover,
 footer a:hover {
   color: #0000ee !important;
+  font-weight: 400 !important;
+
   text-decoration: none !important;
-  border-bottom: none !important;
+  text-decoration-line: none !important;
+  text-decoration-color: transparent !important;
+
+  border-bottom: 0 !important;
   box-shadow: none !important;
+  background-image: none !important;
 }
 
-/* Bold text that is NOT a link: black */
-strong,
-b,
-.post strong,
-.post b,
-.post article strong,
-.post article b {
+/* Non-link bold text: black and bold */
+strong:not(a strong),
+b:not(a b),
+.post strong:not(a strong),
+.post b:not(a b) {
   color: var(--global-text-color) !important;
   font-weight: 700 !important;
 }
 
-/* Bold text inside links: keep blue */
+/* Bold text inside links: blue but NOT bold */
 a strong,
 a b,
 strong a,
-b a,
-.post a strong,
-.post a b,
-.post strong a,
-.post b a {
+b a {
   color: #0000ee !important;
   font-weight: 400 !important;
+
   text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
 
 /* Navbar: black in light mode */
@@ -663,8 +677,12 @@ b a,
 #navbar button,
 #navbar span {
   color: #000000 !important;
+  font-weight: 400 !important;
+
   text-decoration: none !important;
-  font-weight: 500 !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
 
 /* Navbar: white in dark mode */
@@ -675,5 +693,10 @@ html[data-theme="dark"] #navbar .dropdown-toggle,
 html[data-theme="dark"] #navbar button,
 html[data-theme="dark"] #navbar span {
   color: #ffffff !important;
+  font-weight: 400 !important;
+
   text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
