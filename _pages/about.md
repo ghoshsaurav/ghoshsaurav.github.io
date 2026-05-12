@@ -50,10 +50,10 @@ Outside of research, I am a Volunteer Mentor with the Code to PhD Mentorship Pro
 
 ## Recent News
 
-- **Apr 2026:** Served as a PC Member and Reviewer for the 39th International Conference on Computer Applications in Industry & Engineering.
-- **Mar 2026:** Served as a journal reviewer for the *Journal of Educational Technology Development and Exchange*.
+- **Apr 2026:** Served as PC Member and Reviewer for the 39th Intl. Conference on Computer Applications (CAINE).
+- **Mar 2026:** Served as journal reviewer for the *Journal of Educational Technology Development and Exchange*.
 - **Apr 2026:** Published work at ACM Southeast 2026.
 - **Dec 2025:** Published work in Elsevier *Blockchain: Research and Applications*.
 - **Sept 2025:** Published work in Springer *CATA 2025* proceedings.
 - **July 2025:** Published work at ACM WiSec 2025.
-- **Apr 2025:** Served as a Session Chair at ACM Southeast Conference 2025.
+- **Apr 2025:** Served as Session Chair at ACM Southeast Conference 2025.
