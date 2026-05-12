@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Selected Projects
+title: Projects
 permalink: /projects/
 description: academic, research, and software works.
 nav: true
