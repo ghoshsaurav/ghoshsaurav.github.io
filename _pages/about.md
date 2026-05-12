@@ -14,12 +14,9 @@ profile:
     <p>Saint Louis, MO 63130-4899</p>
     <p><a href="mailto:saurav.ghosh@wustl.edu">saurav.ghosh@wustl.edu</a></p>
     <p style="line-height: 1.7; margin-top: 0.6rem;">
-      <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> ·
+      <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a> ·
       <a href="https://github.com/ghoshsaurav" target="_blank" rel="noopener noreferrer">GitHub</a> ·
       <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
-      <a href="https://orcid.org/0000-0003-2492-6935" target="_blank" rel="noopener noreferrer">ORCID</a> ·
-      <a href="https://sites.google.com/view/sauravghosh/" target="_blank" rel="noopener noreferrer">Google Site</a> ·
-      <a href="https://meritpages.com/SauravGhosh" target="_blank" rel="noopener noreferrer">Merit</a>
     </p>
 
 selected_papers: false
@@ -35,8 +32,6 @@ latest_posts:
   scrollable: false
   limit: 0
 ---
-
-<div style="font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 1.02rem; line-height: 1.65;">
 
 I am a **Graduate Research Assistant** in the [VIBE Lab](https://visualdata.wustl.edu/), where I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on a research project connected to **[Waters Corporation](https://www.waters.com/) ([NYSE: WAT](https://ir.waters.com/))** focused on improving the company’s proprietary **ApexTrack algorithm**.
 
@@ -62,5 +57,3 @@ Outside of research, I am a Volunteer Mentor with the Code to PhD Mentorship Pro
 - **Sept 2025:** Published work in Springer *CATA 2025* proceedings.
 - **July 2025:** Published work at ACM WiSec 2025.
 - **Apr 2025:** Served as a Session Chair at ACM Southeast Conference 2025.
-
-</div>
