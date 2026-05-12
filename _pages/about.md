@@ -1,6 +1,6 @@
 ---
-layout: About
-title: About
+layout: about
+title: about
 permalink: /
 subtitle: PhD Student in Computer Science at <a href="https://wustl.edu/">Washington University in St. Louis</a>
 
@@ -16,7 +16,7 @@ profile:
     <p style="line-height: 1.7; margin-top: 0.6rem;">
       <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a> ·
       <a href="https://github.com/ghoshsaurav" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-      <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+      <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </p>
 
 selected_papers: false
