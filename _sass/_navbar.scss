@@ -188,3 +188,67 @@
     color: var(--global-hover-color);
   }
 }
+
+/* Top navbar color control */
+
+/* Light mode: black navbar links */
+#navbar a,
+#navbar .nav-link,
+#navbar .navbar-brand,
+#navbar .dropdown-toggle,
+#navbar button,
+#navbar span {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+#navbar a:hover,
+#navbar .nav-link:hover,
+#navbar .navbar-brand:hover,
+#navbar .dropdown-toggle:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+#navbar .nav-item.active > .nav-link,
+#navbar .nav-link.active {
+  color: #000000 !important;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+#navbar .dropdown-menu a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+/* Dark mode: white navbar links */
+html[data-theme="dark"] #navbar a,
+html[data-theme="dark"] #navbar .nav-link,
+html[data-theme="dark"] #navbar .navbar-brand,
+html[data-theme="dark"] #navbar .dropdown-toggle,
+html[data-theme="dark"] #navbar button,
+html[data-theme="dark"] #navbar span {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+html[data-theme="dark"] #navbar a:hover,
+html[data-theme="dark"] #navbar .nav-link:hover,
+html[data-theme="dark"] #navbar .navbar-brand:hover,
+html[data-theme="dark"] #navbar .dropdown-toggle:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+html[data-theme="dark"] #navbar .nav-item.active > .nav-link,
+html[data-theme="dark"] #navbar .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+html[data-theme="dark"] #navbar .dropdown-menu a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
