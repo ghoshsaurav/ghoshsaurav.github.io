@@ -14,8 +14,22 @@ profile:
     <p>St. Louis, Missouri, United States</p>
     <p><a href="mailto:saurav.ghosh@wustl.edu">saurav.ghosh@wustl.edu</a></p>
 
+    <details style="margin-top: 0.6rem;">
+      <summary style="cursor: pointer; font-weight: 500;">
+        <i class="fa-solid fa-link"></i> Profiles & Links
+      </summary>
+      <div style="margin-top: 0.5rem; line-height: 1.7;">
+        <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a><br>
+        <a href="https://orcid.org/0000-0003-2492-6935" target="_blank" rel="noopener noreferrer">ORCID</a><br>
+        <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br>
+        <a href="https://github.com/ghoshsaurav" target="_blank" rel="noopener noreferrer">GitHub</a><br>
+        <a href="https://sites.google.com/view/sauravghosh/" target="_blank" rel="noopener noreferrer">Google Sites</a><br>
+        <a href="https://meritpages.com/SauravGhosh" target="_blank" rel="noopener noreferrer">SEMO Merit</a>
+      </div>
+    </details>
+
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
