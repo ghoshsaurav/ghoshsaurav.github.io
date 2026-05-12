@@ -10,8 +10,8 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+  --global-theme-color: #0645ad;
+  --global-hover-color: #0b0080;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
@@ -80,8 +80,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  --global-theme-color: #4da3ff;
+  --global-hover-color: #80bdff;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
   --global-footer-text-color: #{v.$grey-color-dark};
@@ -208,21 +208,34 @@ html[data-theme-setting="light"] {
 }
 /* Custom link and emphasis styling for Saurav Ghosh site */
 
-a {
-  color: #0645ad;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
+body a,
+.post a,
+.profile a,
+.more-info a,
+footer a {
+  color: var(--global-theme-color) !important;
+  text-decoration-line: underline !important;
+  text-decoration-style: solid !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 2px !important;
 }
 
-a:hover {
-  color: #0b0080;
-  text-decoration: underline;
+body a:hover,
+.post a:hover,
+.profile a:hover,
+.more-info a:hover,
+footer a:hover {
+  color: var(--global-hover-color) !important;
+  text-decoration-line: underline !important;
 }
 
 strong,
 b {
-  color: #0645ad;
+  color: #0645ad !important;
   font-weight: 600;
+}
+
+html[data-theme="dark"] strong,
+html[data-theme="dark"] b {
+  color: #4da3ff !important;
 }
