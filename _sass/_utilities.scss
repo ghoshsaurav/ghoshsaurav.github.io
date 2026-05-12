@@ -603,3 +603,43 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+/* Final custom overrides for Saurav Ghosh site */
+
+/* Links should be blue */
+.post a,
+.post .desc a,
+.profile .more-info a,
+footer a {
+  color: #0645ad !important;
+  text-decoration-line: underline !important;
+  text-decoration-style: solid !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 2px !important;
+  text-decoration-color: #0645ad !important;
+}
+
+.post a:hover,
+.post .desc a:hover,
+.profile .more-info a:hover,
+footer a:hover {
+  color: #0b0080 !important;
+  text-decoration-color: #0b0080 !important;
+}
+
+/* Bold text should stay black */
+.post strong,
+.post b,
+.post article strong,
+.post article b {
+  color: var(--global-text-color) !important;
+  font-weight: 700 !important;
+}
+
+/* But if the bold text is also a link, keep it blue */
+.post strong a,
+.post b a,
+.post a strong,
+.post a b {
+  color: #0645ad !important;
+}
