@@ -7,15 +7,6 @@ nav: true
 nav_order: 3
 ---
 
----
-layout: page
-title: projects
-permalink: /projects/
-description: Selected research, academic, and software projects by Saurav Ghosh.
-nav: true
-nav_order: 3
----
-
 ## Research Software
 
 ### SPARK Adversarial Safety  
