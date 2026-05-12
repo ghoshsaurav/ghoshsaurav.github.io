@@ -206,34 +206,97 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
-/* Custom link and emphasis styling for Saurav Ghosh site */
+/* Final custom overrides for Saurav Ghosh site */
 
-/* Links: blue with normal underline */
+/* All normal page links: blue, bold, no underline */
 body a,
+body a:visited,
 .post a,
-.profile a,
-.more-info a,
+.post a:visited,
+.post .desc a,
+.profile .more-info a,
 footer a {
-  color: #0645ad !important;
-  text-decoration-line: underline !important;
-  text-decoration-style: solid !important;
-  text-decoration-thickness: 1px !important;
-  text-underline-offset: 2px !important;
-  text-decoration-color: #0645ad !important;
+  color: #0000ee !important;
+  font-weight: 700 !important;
+
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-color: transparent !important;
+
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
 
+/* Hover/focus links: still blue, still no underline */
 body a:hover,
+body a:focus,
 .post a:hover,
-.profile a:hover,
-.more-info a:hover,
+.post a:focus,
+.post .desc a:hover,
+.profile .more-info a:hover,
 footer a:hover {
-  color: #0b0080 !important;
-  text-decoration-color: #0b0080 !important;
+  color: #0000ee !important;
+
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-color: transparent !important;
+
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
 
-/* Bold text: black, not blue */
-strong,
-b {
+/* Non-link bold text: black */
+strong:not(a strong),
+b:not(a b),
+.post strong:not(a strong),
+.post b:not(a b) {
   color: var(--global-text-color) !important;
-  font-weight: 700;
+  font-weight: 700 !important;
+}
+
+/* Bold text inside links: blue */
+a strong,
+a b,
+strong a,
+b a {
+  color: #0000ee !important;
+  font-weight: 700 !important;
+
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+/* Navbar: black in light mode */
+#navbar a,
+#navbar .nav-link,
+#navbar .navbar-brand,
+#navbar .dropdown-toggle,
+#navbar button,
+#navbar span {
+  color: #000000 !important;
+  font-weight: 500 !important;
+
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+/* Navbar: white in dark mode */
+html[data-theme="dark"] #navbar a,
+html[data-theme="dark"] #navbar .nav-link,
+html[data-theme="dark"] #navbar .navbar-brand,
+html[data-theme="dark"] #navbar .dropdown-toggle,
+html[data-theme="dark"] #navbar button,
+html[data-theme="dark"] #navbar span {
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
