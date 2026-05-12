@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
 subtitle: PhD Student in Computer Science at <a href="https://wustl.edu/">Washington University in St. Louis</a>
 
