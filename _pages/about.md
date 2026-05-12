@@ -9,25 +9,19 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Washington University in St. Louis</p>
-    <p>Department of Computer Science and Engineering</p>
-    <p>St. Louis, Missouri, United States</p>
+    <p>McKelvey Hall 2040</p>
+    <p>1 Brookings Drive</p>
+    <p>Saint Louis, MO 63130-4899</p>
     <p><a href="mailto:saurav.ghosh@wustl.edu">saurav.ghosh@wustl.edu</a></p>
-
-    <details style="margin-top: 0.6rem;">
-      <summary style="cursor: pointer; font-weight: 500;">
-        <i class="fa-solid fa-link"></i> Profiles & Links
-      </summary>
-      <div style="margin-top: 0.5rem; line-height: 1.7;">
-        <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a><br>
-        <a href="https://orcid.org/0000-0003-2492-6935" target="_blank" rel="noopener noreferrer">ORCID</a><br>
-        <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br>
-        <a href="https://github.com/ghoshsaurav" target="_blank" rel="noopener noreferrer">GitHub</a><br>
-        <a href="https://sites.google.com/view/sauravghosh/" target="_blank" rel="noopener noreferrer">Google Sites</a><br>
-        <a href="https://meritpages.com/SauravGhosh" target="_blank" rel="noopener noreferrer">SEMO Merit</a>
-      </div>
-    </details>
-
+    <p style="line-height: 1.7; margin-top: 0.6rem;">
+      <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a> ·
+      <a href="https://orcid.org/0000-0003-2492-6935" target="_blank" rel="noopener noreferrer">ORCID</a> ·
+      <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+      <a href="https://github.com/ghoshsaurav" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+      <a href="https://sites.google.com/view/sauravghosh/" target="_blank" rel="noopener noreferrer">Google Site</a> ·
+      <a href="https://meritpages.com/SauravGhosh" target="_blank" rel="noopener noreferrer">Merit</a>
+    </p>
+    
 selected_papers: false
 social: false
 
