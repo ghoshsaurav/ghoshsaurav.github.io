@@ -606,28 +606,33 @@ mjx-container[jax="CHTML"][display="true"] {
 
 /* Final custom overrides for Saurav Ghosh site */
 
-/* Links should be blue */
+/* Body/profile/footer links: pure blue, bold, no underline */
+body a,
 .post a,
 .post .desc a,
 .profile .more-info a,
 footer a {
-  color: #0645ad !important;
-  text-decoration-line: underline !important;
-  text-decoration-style: solid !important;
-  text-decoration-thickness: 1px !important;
-  text-underline-offset: 2px !important;
-  text-decoration-color: #0645ad !important;
+  color: #0000ee !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
+body a:hover,
 .post a:hover,
 .post .desc a:hover,
 .profile .more-info a:hover,
 footer a:hover {
-  color: #0b0080 !important;
-  text-decoration-color: #0b0080 !important;
+  color: #0000ee !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
-/* Bold text should stay black */
+/* Bold text that is NOT a link: black */
+strong,
+b,
 .post strong,
 .post b,
 .post article strong,
@@ -636,10 +641,39 @@ footer a:hover {
   font-weight: 700 !important;
 }
 
-/* But if the bold text is also a link, keep it blue */
-.post strong a,
-.post b a,
+/* Bold text inside links: keep blue */
+a strong,
+a b,
+strong a,
+b a,
 .post a strong,
-.post a b {
-  color: #0645ad !important;
+.post a b,
+.post strong a,
+.post b a {
+  color: #0000ee !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+/* Navbar: black in light mode */
+#navbar a,
+#navbar .nav-link,
+#navbar .navbar-brand,
+#navbar .dropdown-toggle,
+#navbar button,
+#navbar span {
+  color: #000000 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+/* Navbar: white in dark mode */
+html[data-theme="dark"] #navbar a,
+html[data-theme="dark"] #navbar .nav-link,
+html[data-theme="dark"] #navbar .navbar-brand,
+html[data-theme="dark"] #navbar .dropdown-toggle,
+html[data-theme="dark"] #navbar button,
+html[data-theme="dark"] #navbar span {
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
