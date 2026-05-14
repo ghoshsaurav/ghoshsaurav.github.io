@@ -37,7 +37,7 @@ latest_posts:
   limit: 0
 ---
 
-I am a Graduate Research Assistant in the [VIBE Lab](https://visualdata.wustl.edu/), where I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on a research project connected to [Waters Corporation](https://www.waters.com/) ([NYSE: WAT](https://ir.waters.com/)) focused on improving the company’s proprietary ApexTrack algorithm.
+I am a Graduate Research Assistant in the [VIBE Lab](https://visualdata.wustl.edu/), where I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on a research project connected to [Waters Corporation](https://www.waters.com/) ([NYSE: WAT](https://ir.waters.com/financials/Stock-Quote/default.aspx)) focused on improving the company’s proprietary ApexTrack algorithm.
 
 In the past, I have worked with Prof. [Raj Jain](https://www.cse.wustl.edu/~jain/) on quantum cryptographic primitives and secure networked systems. Before starting my PhD, I completed my Master’s in Applied Computer Science at [Southeast Missouri State University](https://semo.edu/), where I worked with Prof. [Reshmi Mitra](https://semo.edu/people-directory/faculty-staff/mitra-reshmi.html). My [thesis](https://www.proquest.com/docview/3176153023) proposed a blockchain-based access control framework for P2P networks. I received the *Outstanding MS in Applied Computer Science* Award, given to only one graduating student per academic year in recognition of academic excellence and contributions within the program cohort.
 
