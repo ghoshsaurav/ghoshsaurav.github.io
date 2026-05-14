@@ -40,7 +40,7 @@ latest_posts:
 <style>
 @media (min-width: 768px) {
   .profile {
-    margin-top: -1rem !important;
+    margin-top: -2rem !important;
   }
 }
 </style>
