@@ -37,6 +37,14 @@ latest_posts:
   limit: 0
 ---
 
+<style>
+@media (min-width: 768px) {
+  .profile {
+    margin-top: -1rem !important;
+  }
+}
+</style>
+
 I am a Graduate Research Assistant in the [VIBE Lab](https://visualdata.wustl.edu/), where I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on a research project connected to [Waters Corporation](https://www.waters.com/) ([NYSE: WAT](https://ir.waters.com/financials/Stock-Quote/default.aspx)) focused on improving the company’s proprietary ApexTrack algorithm.
 
 In the past, I have worked with Prof. [Raj Jain](https://www.cse.wustl.edu/~jain/) on quantum cryptographic primitives and secure networked systems. Before starting my PhD, I completed my Master’s in Applied Computer Science at [Southeast Missouri State University](https://semo.edu/), where I worked with Prof. [Reshmi Mitra](https://semo.edu/people-directory/faculty-staff/mitra-reshmi.html). My [thesis](https://www.proquest.com/docview/3176153023) proposed a blockchain-based access control framework for P2P networks. I received the *Outstanding MS in Applied Computer Science* Award, given to only one graduating student per academic year in recognition of academic excellence and contributions within the program cohort.
@@ -47,9 +55,21 @@ Outside of research, I am a Volunteer Mentor with the [Code to PhD Mentorship Pr
 
 ## Research Direction
 
-- *Human-Centered AI, Scientific Visualization, Uncertainty Quantification, Signal Analysis*: I am currently trying to improve an uncertainty-aware peak detection algorithm for GC-MS/chromatographic data, a problem space where algorithms, uncertainty, and human judgment meet, with the goal of helping scientists understand when an algorithm’s output is stable or uncertain.
+<ul>
+  <li style="margin-bottom: 1.2rem;">
+    <em>Human-Centered AI, Scientific Visualization, Uncertainty Quantification, Signal Analysis</em>:<br>
+    <span style="display: block; margin-left: 0; margin-top: 0.25rem;">
+      My current work focuses on improving uncertainty-aware peak detection for GC-MS/chromatographic data, a problem space where algorithms, uncertainty, and human judgment meet to help scientists understand when an algorithm’s output is stable or uncertain.
+    </span>
+  </li>
 
-- *Quantum Security, Blockchain, Decentralized Systems, and Secure P2P/IoT Networks*: In the past, I have worked on the security of emerging networked systems, including quantum cryptographic protocols, blockchain-based access control, smart-contract mechanisms, and privacy-preserving IoT data access. My broader interest was in designing resilient systems through protocol analysis, threat modeling, governance mechanisms, and secure decentralized architectures.
+  <li style="margin-bottom: 1.2rem;">
+    <em>Quantum Security, Blockchain, Decentralized Systems, and Secure P2P/IoT Networks</em>:<br>
+    <span style="display: block; margin-left: 0; margin-top: 0.25rem;">
+      I have also worked on the security of emerging networked systems, including quantum cryptographic protocols, blockchain-based access control, smart-contract mechanisms, and privacy-preserving IoT data access. My broader interest is in designing resilient systems through protocol analysis, threat modeling, governance mechanisms, and secure decentralized architectures.
+    </span>
+  </li>
+</ul>
 
 ## Recent News
 
