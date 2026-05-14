@@ -9,14 +9,19 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>McKelvey Hall 2040, 1 Brookings Drive</p>
-    <p>, St. Louis, Missouri</p>
-    <p><a href="mailto:saurav.ghosh@wustl.edu">saurav.ghosh@wustl.edu</a></p>
-    <p style="line-height: 1.7; margin-top: 0.6rem;">
-      <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a> ·
-      <a href="https://github.com/ghoshsaurav" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-      <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    </p>
+    <div style="font-size: 0.95rem; line-height: 1.35; margin-top: 0.7rem;">
+      <p style="margin-bottom: 0.15rem;">McKelvey Hall 2040</p>
+      <p style="margin-bottom: 0.15rem;">1 Brookings Drive</p>
+      <p style="margin-bottom: 0.15rem;">St. Louis, Missouri</p>
+      <p style="margin-bottom: 0.15rem;">
+        <a href="mailto:saurav.ghosh@wustl.edu">saurav.ghosh@wustl.edu</a>
+      </p>
+      <p style="line-height: 1.5; margin-top: 0.25rem; margin-bottom: 0;">
+        <a href="https://scholar.google.com/citations?user=rCNOYsoAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a> ·
+        <a href="https://github.com/ghoshsaurav" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/ghoshsaurav71/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </div>
 
 selected_papers: false
 social: false
