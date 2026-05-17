@@ -3,9 +3,10 @@
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+{% if site.last_updated %}
+  <br>
+  Last Updated: {{ 'now' | date: '%B %d, %Y' }}.
+{% endif %}
 {% endcapture %}
 
 {% if site.footer_fixed %}
