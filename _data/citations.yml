@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-05-25'
 papers:
   rCNOYsoAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -12,6 +12,10 @@ papers:
   rCNOYsoAAAAJ:8k81kl-MbHgC:
     citations: 0
     title: Blockchain Network Deployment for Federated IoT Access Control
+    year: '2026'
+  rCNOYsoAAAAJ:KlAtU1dfN6UC:
+    citations: 0
+    title: Adversarial Stress Testing of SPARK Humanoid Safety Filters
     year: '2026'
   rCNOYsoAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
@@ -37,6 +41,10 @@ papers:
     citations: 1
     title: Incentive-Driven Access Control Framework with Smart Contracts for Secure P2P Networks
     year: '2025'
+  rCNOYsoAAAAJ:kNdYIx-mwKoC:
+    citations: 0
+    title: 'Less Back-and-Forth: A Comparative Study of Structured Prompting'
+    year: '2026'
   rCNOYsoAAAAJ:qjMakFHDy7sC:
     citations: 1
     title: 'POSTER: VeilPIR: A Lightweight Private Information Retrieval Protocol for Enhancing Data Privacy in IoT Ecosystems'
