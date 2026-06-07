@@ -132,8 +132,9 @@ Outside of research, I am a Volunteer Mentor with the [Code to PhD Mentorship Pr
 
 ## Recent News
 
+- **June 2026:** Served as journal reviewer for *IEEE TMC*, IF: 9.2.
 - **Apr 2026:** Served as PC Member and Reviewer for the *39th CAINE Conference*.
-- **Mar 2026:** Served as journal reviewer for *ETDE Journal*.
+- **Mar 2026:** Served as journal reviewer for *ETDE Journal*, CS: 1.1. 
 - **Apr 2026:** Published work at *ACM Southeast 2026*.
 - **Dec 2025:** Published work in Elsevier *Blockchain: Research and Applications*.
 - **Sept 2025:** Published work in Springer *CATA 2025* proceedings.
