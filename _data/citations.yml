@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-07-08'
 papers:
   rCNOYsoAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -58,6 +58,6 @@ papers:
     title: Prostate cancer detection using deep learning neural network with transfer learning approach
     year: '2021'
   rCNOYsoAAAAJ:zYLM7Y9cAGgC:
-    citations: 2
+    citations: 4
     title: 'Quantum Blockchain Survey: Foundations, Trends, and Gaps'
     year: '2025'
