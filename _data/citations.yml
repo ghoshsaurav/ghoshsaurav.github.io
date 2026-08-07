@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-08-07'
 papers:
   rCNOYsoAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -7,7 +7,7 @@ papers:
     year: '2025'
   rCNOYsoAAAAJ:2osOgNQ5qMEC:
     citations: 2
-    title: Scalable Consensus Framework with Adaptive Governance and Fault Tolerance for Blockchain Ecosystems
+    title: Scalable consensus framework with adaptive governance and fault tolerance for blockchain ecosystems
     year: '2025'
   rCNOYsoAAAAJ:8k81kl-MbHgC:
     citations: 0
@@ -35,7 +35,7 @@ papers:
     year: '2025'
   rCNOYsoAAAAJ:d1gkVwhDpl0C:
     citations: 6
-    title: 'Securing RC Based P2P Networks: A Blockchain-Based Access Control Framework Utilizing Ethereum Smart Contracts for IoT and Web 3.0'
+    title: 'Securing RC based P2P networks: a blockchain-based access control framework utilizing ethereum smart contracts for IoT and web 3.0'
     year: '2024'
   rCNOYsoAAAAJ:eQOLeE2rZwMC:
     citations: 1
