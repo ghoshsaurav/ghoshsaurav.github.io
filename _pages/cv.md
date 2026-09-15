@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-cv_pdf: /assets/pdf/Ghosh-CV.pdf
+cv_pdf: /assets/pdf/Saurav_Ghosh_CV.pdf
 description: Curriculum vitae of Saurav Ghosh.
 ---
 

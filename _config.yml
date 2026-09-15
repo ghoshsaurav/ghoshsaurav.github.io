@@ -14,24 +14,17 @@ description: >
   Saurav Ghosh is a PhD student in Computer Science at Washington University in St. Louis and a Graduate Research Assistant in the VIBE Lab. His work focuses on human-centered AI, scientific visualization, uncertainty quantification, GC-MS signal analysis, quantum security, blockchain, and decentralized systems.
 
 footer_text: >
-  <a href="https://sites.wustl.edu/ghosh/" target="_blank" rel="noopener noreferrer">WashU Site</a> ·
-  <a href="https://orcid.org/0000-0003-2492-6935" target="_blank">ORCID</a> ·
-  <a href="https://sites.google.com/view/sauravghosh/" target="_blank">Google Site</a> ·
-  <a href="https://meritpages.com/SauravGhosh" target="_blank">Merit</a> ·
-  <a href="https://bit.ly/m/Saurav-Ghosh" target="_blank">Bitly</a> ·
-  <a href="https://www.name-coach.com/saurav-ghosh" target="_blank">NameCoach</a>.
-  <a href="https://thesauravghosh.wordpress.com/" target="_blank">WordPress</a>.
   <a href="https://twitter.com/saurav_tanmoy" target="_blank">X</a> ·
   <a href="https://www.facebook.com/sgtanmoy/" target="_blank">Facebook</a> ·
   <a href="https://www.youtube.com/@iamghosh" target="_blank">YouTube</a> ·
   <a href="https://www.instagram.com/thetanmoy" target="_blank">Instagram</a> ·
-  <a href="https://www.tiktok.com/@sgtanmoy" target="_blank">TikTok</a> ·
+  <a href="https://www.tiktok.com/@sgtanmoy" target="_blank">TikTok</a>
 
 keywords: >
   Saurav Ghosh, Saurav Ghosh WashU, Saurav Ghosh Washington University in St. Louis, Saurav Ghosh Computer Science, Saurav Ghosh VIBE Lab, Saurav Ghosh GC-MS, Computer Science PhD, Washington University Computer Science, Human-Centered AI, Scientific Visualization, Uncertainty Quantification, Signal Analysis, GC-MS Signal Analysis, Quantum Security, Quantum Computing, Blockchain, Decentralized Systems, Secure P2P Networks, IoT Security, VIBE Lab, Jain Lab
 
 lang: en
-icon: ⚛️
+icon: prof_pic.jpg
 
 url: https://ghoshsaurav.github.io
 baseurl: ""
@@ -69,7 +62,7 @@ external_services:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: false
 search_enabled: false
 socials_in_search: false
@@ -77,7 +70,7 @@ posts_in_search: false
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 960px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -347,7 +340,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -413,7 +406,7 @@ enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------

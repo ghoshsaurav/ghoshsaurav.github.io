@@ -1,28 +1,18 @@
-{% capture footer_contents %}
-  {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-{% if site.last_updated %}
-  <br>
-  Last Updated: {{ 'now' | date: '%B %d, %Y' }}.
-{% endif %}
-{% endcapture %}
-
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
+<footer class="sticky-bottom academic-footer" role="contentinfo">
+  <div class="container">
+    <address class="office-address">McKelvey Hall 2040, 1 Brookings Drive, St. Louis, Missouri</address>
+    <p>
+      <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a> · <a href="https://sites.wustl.edu/ghosh/">WashU</a> ·
+      <a href="https://sites.google.com/view/sauravghosh/">Google Site</a> · <a href="https://meritpages.com/SauravGhosh">Merit</a> ·
+      <a href="https://bit.ly/m/Saurav-Ghosh">Bitly</a> · <a href="https://www.name-coach.com/saurav-ghosh">NameCoach</a> ·
+      <a href="https://thesauravghosh.wordpress.com/">WordPress</a>
+    </p>
+    <details>
+      <summary>Other profiles</summary>
+      <div class="extra-profiles">{{ site.footer_text }}</div>
+    </details>
+    {% if site.last_updated %}
+      <p class="last-updated">Last updated: {{ 'now' | date: '%B %Y' }}</p>
     {% endif %}
-
-    <div class="container">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% endif %}
+  </div>
+</footer>

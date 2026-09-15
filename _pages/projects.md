@@ -2,92 +2,101 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: academic, research, and software works.
+description: Research prototypes and software projects spanning AI, privacy, and distributed systems.
 nav: true
 nav_order: 3
 ---
 
-### SPARK Adversarial Safety  
-**Jan 2026 – May 2026**  
-Stress-testing SPARK humanoid safety filters under adversarial simulation conditions, including noise, latency, and crowding robustness tests.
+<section class="project-entry">
+  <div class="project-date">Jan 2026 – May 2026</div>
+  <div>
+    <h2>SPARK Adversarial Safety</h2>
+    <p>Stress-testing SPARK humanoid safety filters under adversarial simulation conditions, including noise, latency, and crowding robustness tests.</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/spark-adversarial-safety" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
-[GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
+<section class="project-entry">
+  <div class="project-date">Jan 2026 – May 2026</div>
+  <div>
+    <h2>Label Aggregation Algorithm</h2>
+    <p>A Python-based project related to label aggregation and algorithmic decision support.</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/label_aggregation_algo" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
----
+<section class="project-entry">
+  <div class="project-date">Dec 2024 – July 2025</div>
+  <div>
+    <h2>VeilPIR</h2>
+    <p>Implementation of VeilPIR, a lightweight private information retrieval protocol for IoT. The project uses homomorphic encryption ideas to support privacy-preserving queries in resource-limited environments.</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/VeilPIR" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
-### Label Aggregation Algorithm 
-**Jan 2026 – May 2026**  
-A Python-based project related to label aggregation and algorithmic decision support.
+<section class="project-entry">
+  <div class="project-date">Aug 2024 – Oct 2024</div>
+  <div>
+    <h2>Cloud-Based To-Do List App</h2>
+    <p>Firebase Authentication, Firestore, Firebase Hosting, HTML, CSS, and JavaScript.</p>
+    <p>A cloud-based web application for managing to-do tasks with user authentication and real-time data storage using Firebase services.</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/dccproject" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
-[GitHub](https://github.com/ghoshsaurav/label_aggregation_algo)
+<section class="project-entry">
+  <div class="project-date"></div>
+  <div>
+    <h2>CS609 Advanced Programming Languages</h2>
+    <p>In-class coursework materials for CS609</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/CS609-Spring-2024-01" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
----
+<section class="project-entry">
+  <div class="project-date">Feb 2021 – May 2021</div>
+  <div>
+    <h2>Digital Food Restaurant</h2>
+    <p>Servlet, MySQL, MVC Architecture, Tomcat, Eclipse, Xampp, CSS, and JSP.</p>
+    <p>A web-based restaurant management application developed using Java servlet technologies and MVC architecture, with database-backed ordering and management features.</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/Online-Fast-Food-Shop" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
-### VeilPIR  
-**Dec 2024 – July 2025**  
-Implementation of VeilPIR, a lightweight private information retrieval protocol for IoT. The project uses homomorphic encryption ideas to support privacy-preserving queries in resource-limited environments.
+<section class="project-entry">
+  <div class="project-date">Oct 2019 – Jan 2020</div>
+  <div>
+    <h2>Hospital Appointment Management System</h2>
+    <p>PHP, MySQL, Database, HTML, Xampp, Web API, and Dr. Java.</p>
+    <p>A database-backed hospital appointment management system for organizing patient appointments and supporting basic healthcare scheduling workflows.</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/Appointment-Management-System" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
-[GitHub](https://github.com/ghoshsaurav/VeilPIR)
+<section class="project-entry">
+  <div class="project-date">Oct 2019 – Jan 2020</div>
+  <div>
+    <h2>Calculator with MVC Pattern</h2>
+    <p>Python, MVC Framework, NetBeans, Android Studio, and XML.</p>
+    <p>A calculator application designed using the Model-View-Controller pattern to separate interface, logic, and control flow.</p>
+    <a class="project-link" href="https://github.com/ghoshsaurav/Calculator" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+  </div>
+</section>
 
----
+<section class="project-entry">
+  <div class="project-date"></div>
+  <div>
+    <h2>Line Follower Autonomous BOT</h2>
+    <p>Arduino UNO, IR Sensor, and L298 Motor Driver.</p>
+    <p>An autonomous line-following robot developed for Technival at KUET using embedded hardware components and sensor-based navigation.</p>
+  </div>
+</section>
 
-### Cloud-Based To-Do List App  
-**Aug 2024 – Oct 2024**  
-Firebase Authentication, Firestore, Firebase Hosting, HTML, CSS, and JavaScript.
-
-A cloud-based web application for managing to-do tasks with user authentication and real-time data storage using Firebase services.
-
-[GitHub](https://github.com/ghoshsaurav/dccproject)
-
----
-
-### CS609 Advanced Programming Languages  
-In-class coursework materials for CS609
-
-[GitHub](https://github.com/ghoshsaurav/CS609-Spring-2024-01)
-
----
-
-### Digital Food Restaurant  
-**Feb 2021 – May 2021**  
-Servlet, MySQL, MVC Architecture, Tomcat, Eclipse, Xampp, CSS, and JSP.
-
-A web-based restaurant management application developed using Java servlet technologies and MVC architecture, with database-backed ordering and management features.
-
-[GitHub](https://github.com/ghoshsaurav/Online-Fast-Food-Shop)
-
----
-
-### Hospital Appointment Management System  
-**Oct 2019 – Jan 2020**  
-PHP, MySQL, Database, HTML, Xampp, Web API, and Dr. Java.
-
-A database-backed hospital appointment management system for organizing patient appointments and supporting basic healthcare scheduling workflows.
-
-[GitHub](https://github.com/ghoshsaurav/Appointment-Management-System)
-
----
-
-### Calculator with MVC Pattern  
-**Oct 2019 – Jan 2020**  
-Python, MVC Framework, NetBeans, Android Studio, and XML.
-
-A calculator application designed using the Model-View-Controller pattern to separate interface, logic, and control flow.
-
-[GitHub](https://github.com/ghoshsaurav/Calculator)
-
----
-
-### Line Follower Autonomous BOT  
-**Feb 2026 – Apr 2018**  
-Arduino UNO, IR Sensor, and L298 Motor Driver.
-
-An autonomous line-following robot developed for Technival at KUET using embedded hardware components and sensor-based navigation.
-
----
-
-### Smart Transportation System  
-**Sept 2019 – Dec 2019**  
-Computer Vision, Machine Learning, OpenCV, Image Processing, and Python.
-
-A smart transportation project using computer vision and machine learning methods for image-based transportation analysis.
+<section class="project-entry">
+  <div class="project-date">Sept 2019 – Dec 2019</div>
+  <div>
+    <h2>Smart Transportation System</h2>
+    <p>Computer Vision, Machine Learning, OpenCV, Image Processing, and Python.</p>
+    <p>A smart transportation project using computer vision and machine learning methods for image-based transportation analysis.</p>
+  </div>
+</section>
