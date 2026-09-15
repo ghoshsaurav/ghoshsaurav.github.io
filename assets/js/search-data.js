@@ -4,21 +4,21 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-research",
           title: "Research",
-          description: "Refereed, non-refereed publications, in-preparation work, and highlight videos in reverse chronological order.",
+          description: "Publications and ongoing work in human-centered AI, scientific visualization, and secure systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "academic, research, and software works.",
+          description: "Research prototypes and software projects spanning AI, privacy, and distributed systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-resume",
+          title: "Resume",
+          description: "Resume of Saurav Ghosh.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resume/";
           },
         },{
       id: 'light-theme',
