@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "Publications and ongoing work in human-centered AI, scientific visualization, and secure systems.",
+          description: "Saurav Ghosh’s research on human-centered AI, scientific visualization, uncertainty-aware chromatographic peak detection, and secure systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
