@@ -11,7 +11,7 @@ contact_note: >
   Email is the best way to reach me.
 
 description: >
-  Saurav Ghosh is a PhD student in Computer Science at Washington University in St. Louis and a Graduate Research Assistant in the VIBE Lab. His work focuses on human-centered AI, scientific visualization, uncertainty quantification, GC-MS signal analysis, quantum security, blockchain, and decentralized systems.
+  Saurav Ghosh is a WashU computer science PhD student in the VIBE Lab researching human-centered AI, scientific visualization, and uncertainty in chromatographic peak detection.
 
 footer_text: >
   <a href="https://twitter.com/saurav_tanmoy" target="_blank">X</a> ·
@@ -26,7 +26,7 @@ keywords: >
 lang: en
 icon: prof_pic.jpg
 
-url: https://ghoshsaurav.github.io
+url: https://ghoshsaurav.com
 baseurl: ""
 
 last_updated: true
