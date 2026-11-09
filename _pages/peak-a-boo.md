@@ -1,15 +1,39 @@
 ---
 layout: page
-title: "Peak-a-Boo: Reviewing Chromatographic Peak Detections"
+title: "Peak-a-Boo: Making Binary Chromatographic Peak Detections Reviewable"
 permalink: /projects/peak-a-boo/
 description: "Peak-a-Boo is a visual analytics prototype for reviewing ambiguous chromatographic peak detections. Presented at IEEE VIS 2026."
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://ghoshsaurav.com/projects/peak-a-boo/#poster",
+  "name": "Peak-a-Boo: Making Binary Chromatographic Peak Detections Reviewable",
+  "url": "https://ghoshsaurav.com/projects/peak-a-boo/",
+  "description": "A visual analytics prototype for reviewing ambiguous chromatographic peak detections, presented as a poster at IEEE VIS 2026.",
+  "genre": "Conference poster",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://ghoshsaurav.com/#saurav-ghosh",
+      "name": "Saurav Ghosh",
+      "url": "https://ghoshsaurav.com/"
+    },
+    { "@type": "Person", "name": "Saugat Pandey" },
+    { "@type": "Person", "name": "Alvitta Ottley" }
+  ],
+  "identifier": "https://doi.org/10.13140/RG.2.2.26670.68164",
+  "sameAs": "https://ieeevis.org/year/2026/program/content/0e70c97b-38d9-41eb-9e6e-53600b70cd7e/"
+}
+</script>
 
 **Saurav Ghosh, Saugat Pandey, and Alvitta Ottley** · IEEE VIS 2026 · Boston, MA
 
 Automated peak detectors can miss small or overlapping peaks and mistake noise for a peak. Peak-a-Boo helps analysts decide which detections to review and inspect the evidence behind each one.
 
-## How it works
+## Visual analytics for chromatographic peak review
 
 The review queue prioritizes ambiguous detections. For each case, the interface shows the signal alongside evidence such as local contrast, noise, and stability under perturbation. An interactive sandbox lets analysts see how changing detector settings affects the results.
 
@@ -27,4 +51,4 @@ The review queue prioritizes ambiguous detections. For each case, the interface 
 
 The prototype was tested on synthetic chromatograms. Evaluation with analysts and industrial data is future work.
 
-[Try the interactive demo](https://peakaboo.streamlit.app/) · [View the IEEE VIS poster](https://doi.org/10.13140/RG.2.2.26670.68164) · [Browse my research]({{ '/research/' | relative_url }})
+[Try the interactive demo](https://peakaboo.streamlit.app/) · [View the poster on ResearchGate](https://doi.org/10.13140/RG.2.2.26670.68164) · [Official IEEE VIS 2026 listing](https://ieeevis.org/year/2026/program/content/0e70c97b-38d9-41eb-9e6e-53600b70cd7e/) · [Browse my research]({{ '/research/' | relative_url }})
