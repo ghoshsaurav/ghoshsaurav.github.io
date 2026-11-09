@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+seo_title: Saurav Ghosh | Human-Centered AI and Visualization at WashU
 permalink: /
 profile:
   image: prof_pic.jpg
@@ -13,8 +14,9 @@ profile:
   "mainEntity": {
     "@type": "Person",
     "name": "Saurav Ghosh",
-    "url": "https://ghoshsaurav.github.io/",
-    "image": "https://ghoshsaurav.github.io/assets/img/prof_pic.jpg",
+    "url": {{ '/' | absolute_url | jsonify }},
+    "@id": {{ '/#saurav-ghosh' | absolute_url | jsonify }},
+    "image": {{ '/assets/img/prof_pic.jpg' | absolute_url | jsonify }},
     "email": "mailto:saurav.ghosh@wustl.edu",
     "jobTitle": "Graduate Research Assistant and PhD Student in Computer Science",
     "affiliation": {
@@ -65,7 +67,7 @@ profile:
 }
 </script>
 
-I am a Graduate Research Assistant in the [VIBE Lab](https://visualdata.wustl.edu/), where I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on a research project connected to [Waters Corporation](https://www.waters.com/) focused on improving the company’s proprietary ApexTrack algorithm.
+I am a Graduate Research Assistant in the [VIBE Lab](https://visualdata.wustl.edu/), where I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on a research project connected to [Waters Corporation](https://www.waters.com/) focused on improving the company’s proprietary ApexTrack algorithm. Read more about my [research and publications]({{ '/research/' | relative_url }}).
 
 In the past, I have worked with Prof. [Raj Jain](https://www.cse.wustl.edu/~jain/) on quantum cryptographic primitives and secure networked systems. Before starting my PhD, I completed my Master’s in Applied Computer Science at [Southeast Missouri State University](https://semo.edu/), where I worked with Prof. [Reshmi Mitra](https://semo.edu/people-directory/faculty-staff/mitra-reshmi.html). My [thesis](https://www.proquest.com/docview/3176153023) proposed a blockchain-based access control framework for P2P networks. I received the _Outstanding MS in Applied Computer Science_ Award, given to only one graduating student per academic year in recognition of academic excellence and contributions within the program cohort.
 
@@ -78,8 +80,9 @@ I volunteered as a mentor with the [Code to PhD Mentorship Program](https://code
 - **Human-centered AI, scientific visualization, and uncertainty quantification.** My current work focuses on uncertainty-aware peak detection for GC-MS/chromatographic data, helping scientists understand when an algorithm's output is stable or uncertain.
 - **Security and decentralized systems.** I have worked on quantum cryptographic protocols, blockchain-based access control, smart-contract mechanisms, and privacy-preserving IoT data access. My broader interests include protocol analysis, threat modeling, and secure decentralized architectures.
 
-## News and service
+## Updates
 
+- **November 2026:** Presented a poster at IEEE VIS 2026 in Boston, MA.
 - **June 2026:** Served as a journal reviewer for _IEEE Transactions on Mobile Computing_.
 - **April 2026:** Served as a program committee member and reviewer for the _39th CAINE Conference_.
 - **April 2026:** Published work at _ACM Southeast 2026_.

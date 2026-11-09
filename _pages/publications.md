@@ -2,12 +2,17 @@
 layout: page
 permalink: /research/
 title: Research
-description: Publications and ongoing work in human-centered AI, scientific visualization, and secure systems.
+seo_title: Human-Centered AI and Visualization Research | Saurav Ghosh
+description: Saurav Ghosh’s research on human-centered AI, scientific visualization, uncertainty-aware chromatographic peak detection, and secure systems.
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+## Current research
+
+I study how human-centered AI and scientific visualization can help scientists review uncertain results. My current work in the VIBE Lab at Washington University in St. Louis focuses on uncertainty-aware peak detection in gas chromatography–mass spectrometry (GC–MS). I’m interested in how systems can show which candidate peaks are uncertain and help scientists decide which results to review first when their time is limited.
+
+## Publications
 
 {% include bib_search.liquid %}
 
