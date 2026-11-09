@@ -82,7 +82,7 @@ I volunteered as a mentor with the [Code to PhD Mentorship Program](https://code
 
 ## Updates
 
-- **November 2026:** Presented a poster at IEEE VIS 2026 in Boston, MA.
+- **November 2026:** Presented [Peak-a-Boo]({{ '/research/' | relative_url }}#peak-a-boo-making-binary-chromatographic-peak-detections-reviewable) at IEEE VIS 2026 in Boston, MA.
 - **June 2026:** Served as a journal reviewer for _IEEE Transactions on Mobile Computing_.
 - **April 2026:** Served as a program committee member and reviewer for the _39th CAINE Conference_.
 - **April 2026:** Published work at _ACM Southeast 2026_.
