@@ -1,11 +1,36 @@
 ---
 layout: page
 title: Projects
+seo_title: Research Projects and Software | Saurav Ghosh
 permalink: /projects/
-description: Research prototypes and software projects spanning AI, privacy, and distributed systems.
+description: Explore Saurav Ghosh’s research prototypes and software for scientific visualization, human-centered AI, robotics safety, privacy, and distributed systems.
 nav: true
 nav_order: 3
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Research Projects and Software | Saurav Ghosh",
+  "url": "https://ghoshsaurav.com/projects/",
+  "description": "Explore Saurav Ghosh’s research prototypes and software for scientific visualization, human-centered AI, robotics safety, privacy, and distributed systems.",
+  "author": {
+    "@id": "https://ghoshsaurav.com/#saurav-ghosh",
+    "@type": "Person",
+    "name": "Saurav Ghosh"
+  }
+}
+</script>
+
+<section class="project-entry">
+  <div class="project-date">2026</div>
+  <div>
+    <h2>Peak-a-Boo</h2>
+    <p>A visual analytics prototype for reviewing ambiguous chromatographic peak detections.</p>
+    <a class="project-link" href="{{ '/projects/peak-a-boo/' | relative_url }}">Project details, demo, and poster</a>
+  </div>
+</section>
 
 <section class="project-entry">
   <div class="project-date">Jan 2026 – May 2026</div>

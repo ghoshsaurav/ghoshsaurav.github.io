@@ -2,12 +2,27 @@
 layout: page
 permalink: /research/
 title: Research
-seo_title: Human-Centered AI and Visualization Research | Saurav Ghosh
-description: Saurav Ghosh’s research on human-centered AI, scientific visualization, uncertainty-aware chromatographic peak detection, and secure systems.
+seo_title: Research Papers, Posters, and Theses | Saurav Ghosh
+description: Search Saurav Ghosh’s papers, posters, preprints, and theses on human-centered AI, scientific visualization, uncertainty, cybersecurity, and decentralized systems.
 nav: true
 nav_order: 2
 hide_page_header: true
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Research Papers, Posters, and Theses | Saurav Ghosh",
+  "url": "https://ghoshsaurav.com/research/",
+  "description": "Search Saurav Ghosh’s papers, posters, preprints, and theses on human-centered AI, scientific visualization, uncertainty, cybersecurity, and decentralized systems.",
+  "author": {
+    "@id": "https://ghoshsaurav.com/#saurav-ghosh",
+    "@type": "Person",
+    "name": "Saurav Ghosh"
+  }
+}
+</script>
 
 {% include bib_search.liquid %}
 
