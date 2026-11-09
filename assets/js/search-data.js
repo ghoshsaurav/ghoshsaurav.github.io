@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "Saurav Ghosh’s research on human-centered AI, scientific visualization, uncertainty-aware chromatographic peak detection, and secure systems.",
+          description: "Search Saurav Ghosh’s papers, posters, preprints, and theses on human-centered AI, scientific visualization, uncertainty, cybersecurity, and decentralized systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Research prototypes and software projects spanning AI, privacy, and distributed systems.",
+          description: "Explore Saurav Ghosh’s research prototypes and software for scientific visualization, human-centered AI, robotics safety, privacy, and distributed systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
