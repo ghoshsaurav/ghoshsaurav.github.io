@@ -6,23 +6,8 @@ seo_title: Human-Centered AI and Visualization Research | Saurav Ghosh
 description: Saurav Ghosh’s research on human-centered AI, scientific visualization, uncertainty-aware chromatographic peak detection, and secure systems.
 nav: true
 nav_order: 2
+hide_page_header: true
 ---
-
-## Current research
-
-I study how human-centered AI and scientific visualization can help scientists review uncertain results. My current work in the VIBE Lab at Washington University in St. Louis focuses on uncertainty-aware peak detection in gas chromatography–mass spectrometry (GC–MS). I’m interested in how systems can show which candidate peaks are uncertain and help scientists decide which results to review first when their time is limited.
-
-## Posters
-
-### Peak-a-Boo: Making Binary Chromatographic Peak Detections Reviewable
-
-Saurav Ghosh, Saugat Pandey, and Alvitta Ottley · IEEE VIS 2026 · Boston, MA
-
-Peak-a-Boo is a visual analytics prototype that helps analysts review ambiguous chromatographic peak detections. It prioritizes cases for review and shows the evidence behind each flag, including local contrast, noise, and detection stability. An interactive sandbox lets analysts explore how detector settings affect the results. The prototype was tested on synthetic chromatograms.
-
-[Poster on ResearchGate (DOI: 10.13140/RG.2.2.26670.68164)](https://doi.org/10.13140/RG.2.2.26670.68164)
-
-## Publications
 
 {% include bib_search.liquid %}
 
