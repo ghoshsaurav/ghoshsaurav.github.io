@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Peak-a-Boo: Making Binary Chromatographic Peak Detections Reviewable"
+seo_title: "Peak-a-Boo: Chromatographic Peak Review Demo | Saurav Ghosh"
 permalink: /projects/peak-a-boo/
-description: "Peak-a-Boo is a visual analytics prototype for reviewing ambiguous chromatographic peak detections. Presented at IEEE VIS 2026."
+description: "Try Peak-a-Boo’s interactive chromatogram demo to see how analysts can review uncertain peak detections. Explore the IEEE VIS 2026 poster."
 ---
 
 <script type="application/ld+json">
