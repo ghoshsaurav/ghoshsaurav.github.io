@@ -17,7 +17,6 @@ profile:
     "url": {{ '/' | absolute_url | jsonify }},
     "@id": {{ '/#saurav-ghosh' | absolute_url | jsonify }},
     "image": {{ '/assets/img/prof_pic.jpg' | absolute_url | jsonify }},
-    "email": "mailto:saurav.ghosh@wustl.edu",
     "jobTitle": "Graduate Research Assistant and PhD Student in Computer Science",
     "affiliation": {
       "@type": "CollegeOrUniversity",
@@ -67,7 +66,7 @@ profile:
 }
 </script>
 
-I am a Graduate Research Assistant in the [VIBE Lab](https://visualdata.wustl.edu/), where I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on a research project connected to [Waters Corporation](https://www.waters.com/) focused on improving the company’s proprietary ApexTrack algorithm. Read more about my [research and publications]({{ '/research/' | relative_url }}).
+I’m a computer science PhD student at Washington University in St. Louis and a graduate research assistant in the [VIBE Lab](https://visualdata.wustl.edu/). I work with Prof. [Alvitta Ottley](https://engineering.washu.edu/faculty/Alvitta-Ottley.html) on human-centered AI and scientific visualization. My current research, in collaboration with [Waters Corporation](https://www.waters.com/), focuses on helping scientists review uncertain chromatographic peak detections, including detections from the company’s ApexTrack algorithm. Explore the [Peak-a-Boo project and interactive demo]({{ '/projects/peak-a-boo/' | relative_url }}) or browse my [research papers, posters, and theses]({{ '/research/' | relative_url }}).
 
 In the past, I have worked with Prof. [Raj Jain](https://www.cse.wustl.edu/~jain/) on quantum cryptographic primitives and secure networked systems. Before starting my PhD, I completed my Master’s in Applied Computer Science at [Southeast Missouri State University](https://semo.edu/), where I worked with Prof. [Reshmi Mitra](https://semo.edu/people-directory/faculty-staff/mitra-reshmi.html). My [thesis](https://www.proquest.com/docview/3176153023) proposed a blockchain-based access control framework for P2P networks. I received the _Outstanding MS in Applied Computer Science_ Award, given to only one graduating student per academic year in recognition of academic excellence and contributions within the program cohort.
 
