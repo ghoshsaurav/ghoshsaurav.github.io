@@ -28,7 +28,7 @@ nav_order: 3
   <div>
     <h2>Peak-a-Boo</h2>
     <p>A visual analytics prototype for reviewing ambiguous chromatographic peak detections.</p>
-    <a class="project-link" href="{{ '/projects/peak-a-boo/' | relative_url }}">Project details, demo, and poster</a>
+    <a class="project-link" href="{{ '/projects/peak-a-boo/' | relative_url }}">Explore the Peak-a-Boo demo and IEEE VIS poster</a>
   </div>
 </section>
 
