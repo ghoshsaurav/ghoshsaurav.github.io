@@ -3,6 +3,7 @@ layout: page
 permalink: /resume/
 title: Resume
 nav: true
+sitemap: false
 nav_order: 5
 document_pdf: /assets/pdf/Saurav_Ghosh_Resume.pdf
 description: Resume of Saurav Ghosh.
